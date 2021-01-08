@@ -12,7 +12,8 @@ import java.util.List;
 public class UserController {
     @Reference(timeout = 4000)
     UserService userService;
-//2222222222222222
+//阿萨飒飒飒飒
+    //打算的撒大多所
     @GetMapping("/test1")
     public List<User> test1(){
         List<User> all = userService.getAll();
